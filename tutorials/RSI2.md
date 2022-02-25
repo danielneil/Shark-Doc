@@ -55,6 +55,36 @@ See quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-s
 
 [How to?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
+#### 4. From your forked Shark-Config Repo
+
+Completed wipe the file Shark-Config/config/files/trading-config.yml and copy and paste the following
+```
+---
+- instrument: BTC-USD
+  group: B
+  plugin:
+  - name: yahoo_finance_data
+    desc: "Yahoo Finance [ BTC-USD Historical Data File ]"
+    group: "Yahoo Finance [ Historical Data ]"
+    period1: 1410912000
+    period2: 1644537600
+    interval: 1d
+    includeAdjustedClose: true
+  - name: backtest
+    desc: "BACKTEST: [ RSI2 ]"
+    group: "Backtesting"
+    file: rsi2.py
+    shares: 100
+    capital: 10000000
+    data_format: yahoo_finance
+    entrySMA: 200
+    exitSMA: 5
+    rsiPeriod: 2 
+    overSoldThreshold: 10
+    overBoughtThreshold: 90
+    data_format: yahoo_finance_data
+```
+
 #### 3. Update the build.sh script to reflect your forked Shark-Config GitHub repo URL.
 
 With a text editor, open site.yml in the Shark git repo, and do the following:
