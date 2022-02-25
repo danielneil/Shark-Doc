@@ -96,9 +96,9 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
 
 It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest.
 
-##### 4. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
+##### 4. Update site.yml to reflect your forked Shark-Config GitHub repo URL.
 
-With a text editor, open site.yml in the Shark git repo, and do the following:
+With a text editor, open site.yml in the Shark git repo, and:
 
 ```
    # Change the following: 
@@ -108,7 +108,7 @@ With a text editor, open site.yml in the Shark git repo, and do the following:
    shark_config_repo: "https://github.com/<your_username>/Shark-Config.git"
 ```
 
-Also, as I have forked it for you, you can spin up my version with the following:
+Also, as I have forked it for you, you can spin up my version with:
 ```
    # Change the following: 
    shark_config_repo: "https://github.com/danielneil/Shark-Config.git"
