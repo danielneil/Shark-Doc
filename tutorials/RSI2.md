@@ -136,7 +136,7 @@ If you click "Coins", you should have an image that looks like this:
   
 You can see there are two plugins that correlate to the configuration you entered as above.
   
-If you looked hard, you probably noticed the [Sharpe Ratio](https://www.investopedia.com/terms/s/sharperatio.asp) was 0.0 (which is terrible!).
+If you looked hard, you probably noticed the [Sharpe Ratio](https://www.investopedia.com/terms/s/sharperatio.asp) was 0.0 (which is terrible!), ideal Sharpe ratios are always postive numbers! 
 
 #### 7. Analysing the results
  
@@ -150,7 +150,11 @@ If want to drill into the specifics of the report, from the side menu, navigate 
 <p align="center">
   <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-backtest-report.png?raw=true">
 </p>
-
- 
-
   
+#### 8. Why are the results terrible?
+  
+Well, could a few reasons:
+  
+* RSI2 is indeed a terrible strategy for trading BitCoin
+* A limitation of Yahoo Finance data is that only the close price is listed.
+* My code could be crap? Let me know if you find a bug.
