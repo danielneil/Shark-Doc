@@ -98,7 +98,9 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
     data_format: yahoo_finance_data
 ```
 
-It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest. We will also buy shares in parcels of 100, and our trading capital is $10 000 000.
+It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest. 
+
+We will also buy the instrument in parcels of 100, and our trading capital is $10m.
 
 ##### 4. Update site.yml to reflect your forked Shark-Config GitHub repo URL.
 
