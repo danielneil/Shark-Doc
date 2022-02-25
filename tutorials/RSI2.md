@@ -51,7 +51,6 @@ Therefore:
 * Exit short positions when price moves below the 5-day SMA. 
 
 # Shark Configuration
----
 
 This section details the Shark configuration required to implement the backtest as above.
 
