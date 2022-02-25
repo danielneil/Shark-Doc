@@ -53,7 +53,11 @@ This section details the Shark configuration required to implement the backtest 
 
 #### 1. Clone the Shark GitHub repository 
 
-See quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-setup](instructions).
+```
+git clone https://github.com/danielneil/Shark.git
+```
+
+See Quick Setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-setup](instructions).
 
 #### 2. Fork the Shark-Config github repository, to your own GitHub account.
 
@@ -115,7 +119,11 @@ Also, as I have forked it for you, you can spin up my version with the following
 
 #### 5. Build Shark as per the Quick Setup instructions, specifically.
 ```
-./build.sh 
+yum install epel-release -y
+yum install ansible -y
+yum install git -y
+
+cd Shark && ./build.sh 
 ```
 
 Open a web browser and navigate to http://<your-shark-server-ip>/shark - (with shark/shark as username/password )
