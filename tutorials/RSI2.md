@@ -155,13 +155,20 @@ As per the result from the backtest plugin that ran our RSI2 code, the Sharpe ra
 If want to drill into the specifics of the report, from the side menu, navigate to:
  
 1. Under Portfolio > Backtesting, click Reports
-2. Select the coin (BTC-USD), and the results should be as follows.
+2. Select the coin (BTC-USD), and the results should be as follows:
   
-For the impatient, here it what I found.
-
 <p align="center">
   <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-backtest-report.png?raw=true">
 </p>
+
+In summary, with 2705 bars of historical tick data, you can see:
+
+* 13% in cumulative returns
+* Sharpe Ratio was 0 (terrible).
+* 108 trades, with the win/loss rate was 67%/33%
+* Drawdown was 53% (longest duration was 1472 days)
+  
+Probably should have just emailed myself back in 2010 to tell myself to just buy and hold :)
   
 ### Why did RSI2 perform terribly?
 ---
