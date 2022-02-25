@@ -4,7 +4,7 @@
 
 ## Backtesting the famous RSI(2) strategy using Shark against BitCoin
 
-This article discusses backtesting the RSI2 strategy with Shark against Bitcoin.
+This article discusses backtesting the [RSI2 strategy](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2) with Shark against Bitcoin.
 
 ### Introduction to RSI2
 
