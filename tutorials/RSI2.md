@@ -127,10 +127,30 @@ With your new RSI2 Configuration, Shark has done three things.
 * Downloaded the historical data from yahoo finance
 * Ran your RSI2 backtest code against the historical data
 * Produced a report detaiing the above.
-
+  
 If you click "Coins", you should have an image that looks like this:
   
 <p align="center">
   <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-main.png?raw=true">
 </p>
+  
+You can see there are two plugins that correlate to the configuration you entered as above.
+  
+If you looked hard, you probably noticed the [Sharpe Ratio](https://www.investopedia.com/terms/s/sharperatio.asp) was 0.0 (which is terrible!).
 
+#### 7. Analysing the results
+ 
+As per the result from the backtest plugin that ran our RSI2 code, the Sharpe ratio was less than ideal.
+  
+If want to drill into the specifics of the report, from the side menu, navigate to:
+ 
+1. Under Portfolio > Backtesting, click Reports
+2. Select the coin (BTC-USD), and the results should be as follows:
+
+<p align="center">
+  <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-report.png?raw=true">
+</p>
+
+ 
+
+  
