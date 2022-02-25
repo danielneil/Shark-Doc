@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/danielneil/Shark/blob/main/shark/files/shark_ui_patches/logofullsize.png?raw=true">
+</p>
+
 ## Backtesting the famous RSI(2) strategy using Shark against BitCoin
 
 This article discusses backtesting the RSI2 strategy against Bitcoin's entire historical dataset snapped at market close with the yahoo_finance plugin.
@@ -12,9 +16,7 @@ The sample code below is loosely modeled on the Stock Charts article above, but 
 
 Connors recommends the 200-day moving average. 
 
-The long-term trend is up when a security is above its 200-day SMA and down when a security is below its 200-day SMA. 
-
-Traders should look for buying opportunities when above the 200-day SMA and short-selling opportunities when below the 200-day SMA.
+The long-term trend is up when a security is above its 200-day SMA and down when a security is below its 200-day SMA. Traders should look for buying opportunities when above the 200-day SMA and short-selling opportunities when below the 200-day SMA.
 ```
 For long opportunities > 200-day SMA
 For short opportunities < 200-day SMA
