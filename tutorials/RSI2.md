@@ -93,17 +93,20 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
 With a text editor, open site.yml in the Shark git repo, and do the following:
 
 ```
-   # Change the following
+   # Within the Shark repo directory, change the following: 
    shark_config_repo: "https://github.com/danielneil/Shark-Config.git"
    
    # To something like this (where your_username, is your github username) 
    shark_config_repo: "https://github.com/<your_username>/Shark-Config.git"
 ```
 
-I have forked it for you if you just want to quickly spin it up with the folliwing.
+Also, as I have forked it for you, you can spin up my version with the folliwing.
 ```
-# Within the Shark repo, run the following: 
-
+   # Within the Shark repo directory, change the following: 
+   shark_config_repo: "https://github.com/danielneil/Shark-Config.git"
+   
+   # To this:
+   shark_config_repo: "https://github.com/danielneil/Shark-Config-RSI2-Demo.git"
 ```
 
 
