@@ -58,7 +58,7 @@ See quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-s
 * [How?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 * If you just want to see an example, here is one I prepared [earlier](https://github.com/danielneil/Shark-Config-RSI2-Demo).
 
-#### 4. From your forked Shark-Config Repo
+#### 3. From your forked Shark-Config Repo
 
 Wipe the demo config file Shark-Config/config/files/trading-config.yml and replace with the following
 ```
@@ -88,7 +88,9 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
     data_format: yahoo_finance_data
 ```
 
-#### 3. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
+It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest.
+
+#### 4. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
 
 With a text editor, open site.yml in the Shark git repo, and do the following:
 
@@ -108,11 +110,24 @@ Also, as I have forked it for you, you can spin up my version with the following
    # To this:
    shark_config_repo: "https://github.com/danielneil/Shark-Config-RSI2-Demo.git"
 ```
-#### 4. Build Shark as per the Quick Setup instructions, specifically.
+#### 5. Build Shark as per the Quick Setup instructions, specifically.
 ```
 ./build.sh 
 ```
 
 Open a web browser and navigate to http://<your-shark-server-ip>/shark - (with shark/shark as username/password )
 
+#### 6. Shark Does its thing
+  
+With your new RSI2 Configuration, Shark has done three things.
+ 
+* Downloaded the historical data from yahoo finance
+* Ran your RSI2 backtest code against the historical data
+* Produced a report detaiing the above.
+ 
+If you click "Coins", you should have an image that looks like this:
+  
+<p align="center">
+  <img src="https://github.com/danielneil/Shark/blob/main/shark/files/screenshots/shark-rsi2-main.png?raw=true">
+</p>
 
