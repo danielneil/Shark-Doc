@@ -126,7 +126,7 @@ yum install git -y
 cd Shark && ./build.sh 
 ```
 
-Open a web browser and navigate to http://<your-shark-server-ip>/shark - (with shark/shark as username/password )
+Open a web browser and navigate to http://SHARK_SERVER_IP/shark - (with shark/shark as username/password )
 
 #### 6. Let Shark do its thing
   
