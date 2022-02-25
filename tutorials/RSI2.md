@@ -164,7 +164,9 @@ If you want to drill into the specifics of the report, from the side menu, navig
   <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-backtest-report.png?raw=true">
 </p>
 
-In summary, with 2705 bars of historical tick data, you can see:
+### In Summary
+
+With 2705 bars of historical tick data, you can see:
 
 * 13% in cumulative returns
 * Sharpe Ratio was 0 (terrible).
