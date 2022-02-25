@@ -18,10 +18,10 @@ The sample code below is loosely modeled on the Stock Charts article above, but 
 
 Connors recommends the 200-day moving average. 
 
-> The long-term trend is up when a security is above its 200-day SMA and down when a security is below its 200-day SMA. Traders should look for buying opportunities when above the 200-day SMA and short-selling opportunities when below the 200-day SMA.
+> The long-term trend is up when a security is above its 200-day SMA and down when a security is below its 200-day SMA. Traders should look for BUYING opportunities when above the 200-day SMA and SHORT-selling opportunities when below the 200-day SMA.
 
 Therefore:
-* For long opportunities > 200-day SMA
-* For short opportunities < 200-day SMA
+* Backtest will identify long opportunities when price is > 200-day SMA
+* Backtest will identify short opportunities when price is < 200-day SMA
 
 ### 
