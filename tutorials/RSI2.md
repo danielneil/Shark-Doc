@@ -181,7 +181,7 @@ Well, could be a few reasons:
   
 * Perhaps RSI2 is indeed a terrible strategy for trading BitCoin.
 * A limitation of Yahoo Finance data is that only the close price is listed, perhaps intraday tick data would perform better? 
-* My code could be crap? / I am not a quant / I am not a "real" trader.  
+* My code could be crap?
 
 Let me know if you find a bug.
 
