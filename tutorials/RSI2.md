@@ -2,9 +2,9 @@
   <img src="https://github.com/danielneil/Shark/blob/main/shark/files/shark_ui_patches/logofullsize.png?raw=true">
 </p>
 
-## Backtesting Larry Connor's RSI2 strategy against BitCoin
+## Backtesting Larry Connor's RSI2 strategy against BitCoin with Shark
 
-This article discusses backtesting the [RSI2 strategy](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2) with Shark against Bitcoin.
+This article discusses backtesting the [RSI2 strategy](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2) against Bitcoin with Shark.
 
 If your impatient and just want to know - RSI2 performed terribly against BitCoin.
 
