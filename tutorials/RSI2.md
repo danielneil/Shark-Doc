@@ -21,7 +21,17 @@ Connors recommends the 200-day moving average.
 > The long-term trend is up when a security is above its 200-day SMA and down when a security is below its 200-day SMA. Traders should look for BUYING opportunities when above the 200-day SMA and SHORT-selling opportunities when below the 200-day SMA.
 
 Therefore:
-* Backtest will identify long opportunities when price is > 200-day SMA
-* Backtest will identify short opportunities when price is < 200-day SMA
+* Identify long opportunities when price is > 200-day SMA
+* Identify short opportunities when price is < 200-day SMA
 
-### 
+#### 2. Choose an RSI level to identify buying or selling opportunities within the bigger trend
+
+Connors recommends RSI levels between 0 and 10 for buying and between 90 and 100 for selling.
+
+> He found that returns were higher when buying on an RSI dip below 5 than on one below 10. In other words, the lower RSI dipped, the higher the returns on subsequent long positions. For short positions, the returns were higher when selling short on an RSI surge above 95 than on a surge above 90. In other words, the more short-term overbought the security, the greater the subsequent returns on a short position.
+
+Therefore:
+* Identify buying opportunities when RSI levels between 0 and 10.
+* Identify selling opportunities when RSI levels between 90 and 100.
+
+
