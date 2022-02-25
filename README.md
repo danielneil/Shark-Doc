@@ -4,7 +4,7 @@
 
 # Shark Doc 
 
-Documentaton project for Shark, an algorithmic trading platform.
+Documentaton for Shark, an algorithmic trading platform.
 
 For more information about Shark, see [here](https://github.com/danielneil/Shark).
 
