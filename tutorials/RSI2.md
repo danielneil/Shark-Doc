@@ -56,7 +56,7 @@ See quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-s
 #### 2. Fork the Shark-Config github repository, to your own GitHub account.
 
 * [How?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
-* If you just want to see an example, here is one I prepared [earlier](https://github.com/danielneil/Shark-Doc/blob/main/tutorials/RSI2.md).
+* If you just want to see an example, here is one I prepared [earlier](https://github.com/danielneil/Shark-Config-RSI2-Demo).
 
 #### 4. From your forked Shark-Config Repo
 
