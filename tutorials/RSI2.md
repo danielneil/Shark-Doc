@@ -19,7 +19,9 @@ RSI(2) is a famous trading strategy developed by Larry Connors.
 
 ### Sample RSI2 Backtest Code
 ---
-The [sample code](https://github.com/danielneil/Shark-Config-RSI2-Demo/blob/master/backtests/files/backtests/rsi2.py) below is loosely modeled on the Stock Charts article above, but to summarise, the strategy behaves as follows:
+The [sample code](https://github.com/danielneil/Shark-Config-RSI2-Demo/blob/master/backtests/files/backtests/rsi2.py) below is loosely modeled on the Stock Charts article above, and was pinched from [here](https://gbeced.github.io/pyalgotrade/docs/v0.16/html/sample_rsi2.html).
+
+To summarise, the strategy behaves as follows:
 
 ##### 1. Identify the Major Trend using a long-term average
 
