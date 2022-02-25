@@ -55,8 +55,6 @@ TPD
 ```
 
 ## Sample Backtests
-```
 [Moving Averages](https://github.com/danielneil/Shark-Config/blob/master/backtests/files/backtests/moving_averages.py).
 [BBands](https://github.com/danielneil/Shark-Config/blob/master/backtests/files/backtests/BBands.py).
 [RSI2](https://github.com/danielneil/Shark-Config/blob/master/backtests/files/backtests/rsi2.py).
-```
