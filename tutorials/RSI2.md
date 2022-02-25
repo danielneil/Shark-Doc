@@ -55,11 +55,11 @@ See quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-s
 
 #### 2. Fork the Shark-Config github repository, to your own GitHub account.
 
-[How to?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+* [How?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 
 #### 4. From your forked Shark-Config Repo
 
-Completed wipe the file Shark-Config/config/files/trading-config.yml and copy and paste the following
+Wipe the demo config file Shark-Config/config/files/trading-config.yml and replace with the following
 ```
 ---
 - instrument: BTC-USD
