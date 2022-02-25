@@ -155,7 +155,8 @@ For the impatient, here it what I found.
   <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-backtest-report.png?raw=true">
 </p>
   
-#### 8. Why are the results terrible?
+### Why did RSI2 perform terribly?
+---
   
 Well, could be a few reasons:
   
