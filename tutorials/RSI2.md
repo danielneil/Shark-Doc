@@ -1,1 +1,3 @@
-## Using the famous RSI2 strategy with Shark
+## Using the famous RSI(2) strategy with Shark against BitCoin
+
+"Developed by Larry Connors, the 2-period RSI strategy is a fairly simple mean-reversion trading strategy designed to buy or sell securities after a corrective period. Traders should look for buying opportunities when 2-period RSI moves below 10, which is considered deeply oversold. Conversely, traders can look for short-selling opportunities when 2-period RSI moves above 90. This is a rather aggressive short-term strategy designed to participate in an ongoing trend." [StockCharts](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2)
