@@ -92,7 +92,6 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
     rsiPeriod: 2 
     overSoldThreshold: 10
     overBoughtThreshold: 90
-    data_format: yahoo_finance_data
 ```
 
 It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest. 
