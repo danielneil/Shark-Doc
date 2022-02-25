@@ -10,11 +10,11 @@ This article discusses backtesting the RSI2 strategy with Shark against Bitcoin'
 
 RSI(2) is a famous trading strategy developed by Larry Connors.
 
-> It is a fairly simple mean-reversion trading strategy designed to buy or sell securities after a corrective period. Traders should look for buying opportunities when 2-period RSI moves below 10, which is considered deeply oversold. Conversely, traders can look for short-selling opportunities when 2-period RSI moves above 90." ([Stock Charts](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2))
+> It is a fairly simple mean-reversion trading strategy designed to buy or sell securities after a corrective period. Traders should look for buying opportunities when 2-period RSI moves below 10, which is considered deeply oversold. Conversely, traders can look for short-selling opportunities when 2-period RSI moves above 90. ([Stock Charts](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2))
 
-The sample code below is loosely modeled on the Stock Charts article above, but in summary the strategy behaves as follows:
+The sample code below is loosely modeled on the Stock Charts article above, but to summarise, the strategy behaves as follows:
 
-#### Identify the Major Trend using a long-term average
+#### 1. Identify the Major Trend using a long-term average
 
 Connors recommends the 200-day moving average. 
 
