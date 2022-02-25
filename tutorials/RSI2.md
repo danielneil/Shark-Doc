@@ -131,13 +131,13 @@ cd Shark && ./build.sh
 
 Open a web browser and navigate to http://SHARK_SERVER_IP/shark - (with shark/shark as username/password )
 
-### 6. Let Shark do its thing
+### 6. Let Shark do its thing...
   
-(It might take a few minutes for Shark to cache the historical data file from yahoo finance and then perform the backtest).
+(It might take a few minutes for Shark to cache the historical data from Yahoo Finance and then perform the backtest).
   
 With your new RSI2 Configuration, Shark has done three things.
  
-* Downloaded the historical data from yahoo finance
+* Downloaded the historical data from Yahoo Finance
 * Ran your RSI2 backtest code against the downloaded historical data
 * Produced a report detailng its findings on the above
   
