@@ -63,8 +63,6 @@ This section details the Shark configuration required to implement the backtest 
 git clone https://github.com/danielneil/Shark.git
 ```
 
-See Quick Setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-setup](instructions).
-
 ##### 2. Fork the Shark-Config github repository, to your own GitHub account.
 
 * [How?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
