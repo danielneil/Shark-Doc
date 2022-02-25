@@ -94,9 +94,12 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
     overBoughtThreshold: 90
 ```
 
-It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest. 
+It demostrates the use of two Shark plugins, namely:
 
-We will also buy the instrument in parcels of 100, and our trading capital is $10m.
+* yahoo_finance_data
+* backtest
+
+It also indicates to buy the instrument in parcels of 100, and that our trading capital is $10m.
 
 ### 4. Update site.yml to reflect your forked Shark-Config GitHub repo URL.
 
