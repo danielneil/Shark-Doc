@@ -19,7 +19,7 @@ The [sample code](https://github.com/danielneil/Shark-Config-RSI2-Demo/blob/mast
 
 ##### 1. Identify the Major Trend using a long-term average
 
-Connors recommends the 200-day [moving average](https://www.investopedia.com/terms/m/movingaverage.asp). 
+Connors recommends the 200-day simple [moving average](https://www.investopedia.com/terms/m/movingaverage.asp) (SMA). 
 
 > The long-term trend is up when a security is above its 200-day SMA and down when a security is below its 200-day SMA. Traders should look for BUYING opportunities when above the 200-day SMA and SHORT-selling opportunities when below the 200-day SMA.
 
