@@ -13,7 +13,7 @@ RSI(2) is a famous trading strategy developed by Larry Connors.
 
 > It is a fairly simple mean-reversion trading strategy designed to buy or sell securities after a corrective period. Traders should look for buying opportunities when 2-period RSI moves below 10, which is considered deeply oversold. Conversely, traders can look for short-selling opportunities when 2-period RSI moves above 90. ([Stock Charts](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2))
 
-The sample code below is loosely modeled on the Stock Charts article above, but to summarise, the strategy behaves as follows:
+The [sample code](https://github.com/danielneil/Shark-Config-RSI2-Demo/blob/master/backtests/files/backtests/rsi2.py)) below is loosely modeled on the Stock Charts article above, but to summarise, the strategy behaves as follows:
 
 #### 1. Identify the Major Trend using a long-term average
 
@@ -58,7 +58,7 @@ See quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-s
 * [How?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 * If you just want to see an example, here is one I prepared [earlier](https://github.com/danielneil/Shark-Config-RSI2-Demo).
 
-#### 4. From your forked Shark-Config Repo
+#### 3. From your forked Shark-Config Repo
 
 Wipe the demo config file Shark-Config/config/files/trading-config.yml and replace with the following
 ```
@@ -88,7 +88,9 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
     data_format: yahoo_finance_data
 ```
 
-#### 3. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
+It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest.
+
+#### 4. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
 
 With a text editor, open site.yml in the Shark git repo, and do the following:
 
@@ -108,11 +110,47 @@ Also, as I have forked it for you, you can spin up my version with the following
    # To this:
    shark_config_repo: "https://github.com/danielneil/Shark-Config-RSI2-Demo.git"
 ```
-#### 4. Build Shark as per the Quick Setup instructions, specifically.
+
+#### 5. Build Shark as per the Quick Setup instructions, specifically.
 ```
 ./build.sh 
 ```
 
 Open a web browser and navigate to http://<your-shark-server-ip>/shark - (with shark/shark as username/password )
 
+#### 6. Let Shark do its thing
+  
+(It might take a few minutes for Shark to cache the historical data file from yahoo finance).
+  
+With your new RSI2 Configuration, Shark has done three things.
+ 
+* Downloaded the historical data from yahoo finance
+* Ran your RSI2 backtest code against the historical data
+* Produced a report detaiing the above.
+  
+If you click "Coins", you should have an image that looks like this:
+  
+<p align="center">
+  <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-main.png?raw=true">
+</p>
+  
+You can see there are two plugins that correlate to the configuration you entered as above.
+  
+If you looked hard, you probably noticed the [Sharpe Ratio](https://www.investopedia.com/terms/s/sharperatio.asp) was 0.0 (which is terrible!).
 
+#### 7. Analysing the results
+ 
+As per the result from the backtest plugin that ran our RSI2 code, the Sharpe ratio was less than ideal.
+  
+If want to drill into the specifics of the report, from the side menu, navigate to:
+ 
+1. Under Portfolio > Backtesting, click Reports
+2. Select the coin (BTC-USD), and the results should be as follows:
+
+<p align="center">
+  <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-report.png?raw=true">
+</p>
+
+ 
+
+  
