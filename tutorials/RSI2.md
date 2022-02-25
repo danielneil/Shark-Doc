@@ -34,4 +34,12 @@ Therefore:
 * Identify buying opportunities when RSI levels between 0 and 10.
 * Identify selling opportunities when RSI levels between 90 and 100.
 
+#### 3. Set the exit point
+
+> Connors advocates exiting long positions on a move above the 5-day SMA and short positions on a move below the 5-day SMA.
+
+Therefore:
+
+* Exit long positions when price moves above the 5-day SMA.
+* Exit short positions when price moves below the 5-day SMA. 
 
