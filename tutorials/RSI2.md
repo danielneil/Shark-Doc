@@ -148,7 +148,7 @@ If want to drill into the specifics of the report, from the side menu, navigate 
 2. Select the coin (BTC-USD), and the results should be as follows:
 
 <p align="center">
-  <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-report.png?raw=true">
+  <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-backtest-report.png?raw=true">
 </p>
 
  
