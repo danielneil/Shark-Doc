@@ -135,7 +135,7 @@ Open a web browser and navigate to http://SHARK_SERVER_IP/shark - (with shark/sh
 
 ### 6. Let Shark do its thing...
   
-(It might take a few minutes for Shark to cache the historical data from Yahoo Finance and then perform the backtest).
+(It might take a few minutes for Shark to cache the historical data from Yahoo Finance and perform the backtest).
   
 With your new RSI2 Configuration, Shark has done three things.
  
