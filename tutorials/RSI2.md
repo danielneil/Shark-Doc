@@ -4,7 +4,7 @@
 
 ## Backtesting the famous RSI(2) strategy using Shark against BitCoin
 
-This article discusses backtesting the RSI2 strategy against Bitcoin's entire historical dataset snapped at market close with the yahoo_finance plugin.
+This article discusses backtesting the RSI2 strategy with Shark against Bitcoin's entire historical dataset.
 
 ### Introduction to RSI2
 
