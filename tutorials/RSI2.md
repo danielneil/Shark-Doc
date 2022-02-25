@@ -43,6 +43,12 @@ Therefore:
 * Exit long positions when price moves above the 5-day SMA.
 * Exit short positions when price moves below the 5-day SMA. 
 
-### Shark Setup
+### Shark Configuration
+
+This section details the Shark configuration required to implement the backtest as above.
+
+#### 1. Setup Shark as per the quick start instructions.
+#### 2. Fork the Shark-Config github repository, to your own GitHub account.
+#### 3. 
 
 
