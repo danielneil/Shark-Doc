@@ -7,7 +7,7 @@
 This article discusses backtesting the [RSI2 strategy](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2) with Shark against Bitcoin.
 
 ### Introduction to RSI2
-----
+---
 
 RSI(2) is a famous trading strategy developed by Larry Connors.
 
@@ -45,6 +45,7 @@ Therefore:
 * Exit short positions when price moves below the 5-day SMA. 
 
 ### Shark Configuration
+---
 
 This section details the Shark configuration required to implement the backtest as above.
 
