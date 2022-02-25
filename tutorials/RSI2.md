@@ -21,7 +21,7 @@ The [sample code](https://github.com/danielneil/Shark-Config-RSI2-Demo/blob/mast
 
 To summarise, the strategy behaves as follows:
 
-### 1. Identify the Major Trend using a long-term average
+### 1. Identifies the Major Trend using a long-term average
 
 Connors recommends the 200-day simple [moving average](https://www.investopedia.com/terms/m/movingaverage.asp) (SMA). 
 
@@ -31,7 +31,7 @@ Therefore:
 * Identify long opportunities when price is > 200-day SMA
 * Identify short opportunities when price is < 200-day SMA
 
-### 2. Choose an RSI level to identify buying or selling opportunities within the bigger trend
+### 2. Chooses an RSI level to identify buying or selling opportunities within the bigger trend
 
 Connors recommends [RSI](https://www.investopedia.com/terms/r/rsi.asp) levels between 0 and 10 for buying and between 90 and 100 for selling.
 
@@ -41,7 +41,7 @@ Therefore:
 * Identify buying opportunities when RSI levels between 0 and 10.
 * Identify selling opportunities when RSI levels between 90 and 100.
 
-### 3. Set the exit point
+### 3. Sets the exit point
 
 > Connors advocates exiting long positions on a move above the 5-day SMA and short positions on a move below the 5-day SMA.
 
