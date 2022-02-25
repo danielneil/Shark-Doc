@@ -87,7 +87,7 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
     data_format: yahoo_finance_data
 ```
 
-#### 3. Update the build.sh script to reflect your forked Shark-Config GitHub repo URL.
+#### 3. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
 
 With a text editor, open site.yml in the Shark git repo, and do the following:
 
@@ -99,8 +99,11 @@ With a text editor, open site.yml in the Shark git repo, and do the following:
    shark_config_repo: "https://github.com/<your_username>/Shark-Config.git"
 ```
 
+I have forked it for you if you just want to quickly spin it up with the folliwing.
+```
+# Within the Shark repo, run the following: 
 
-
+```
 
 
 
