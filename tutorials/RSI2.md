@@ -149,7 +149,7 @@ If you click "Coins", you should have an image that looks like this:
   
 You can see there are two plugins that correlate to the configuration you entered as above.
   
-If you looked hard, you probably noticed the [Sharpe Ratio](https://www.investopedia.com/terms/s/sharperatio.asp) was 0.0 (which is terrible!), ideal Sharpe ratios are always postive numbers! 
+If you looked hard, you probably noticed the [Sharpe Ratio](https://www.investopedia.com/terms/s/sharperatio.asp) was 0.0 (which is terrible!), ideal Sharpe ratios are at least positive! 
 
 ## 7. Analysing the Report
  
