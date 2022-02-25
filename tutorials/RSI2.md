@@ -128,6 +128,6 @@ With your new RSI2 Configuration, Shark has done three things.
 If you click "Coins", you should have an image that looks like this:
   
 <p align="center">
-  <img src="https://github.com/danielneil/Shark/blob/main/shark/files/screenshots/shark-rsi2-main.png?raw=true">
+  <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-main.png?raw=true">
 </p>
 
