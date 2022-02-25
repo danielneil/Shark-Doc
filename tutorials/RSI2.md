@@ -26,7 +26,7 @@ Therefore:
 
 #### 2. Choose an RSI level to identify buying or selling opportunities within the bigger trend
 
-Connors recommends RSI levels between 0 and 10 for buying and between 90 and 100 for selling.
+Connors recommends [RSI](https://www.investopedia.com/terms/r/rsi.asp) levels between 0 and 10 for buying and between 90 and 100 for selling.
 
 > He found that returns were higher when buying on an RSI dip below 5 than on one below 10. In other words, the lower RSI dipped, the higher the returns on subsequent long positions. For short positions, the returns were higher when selling short on an RSI surge above 95 than on a surge above 90. In other words, the more short-term overbought the security, the greater the subsequent returns on a short position.
 
