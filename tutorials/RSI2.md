@@ -113,4 +113,6 @@ Also, as I have forked it for you, you can spin up my version with the following
 ./build.sh 
 ```
 
+Open a web browser and navigate to http://<your-shark-server-ip>/shark - (with shark/shark as username/password )
+
 
