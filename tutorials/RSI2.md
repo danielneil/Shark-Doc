@@ -8,7 +8,7 @@ This article discusses backtesting the [RSI2 strategy](https://school.stockchart
 
 For more information about Shark, see [here](https://github.com/danielneil/Shark).
 
-If you're impatient and just want to know - RSI2 performed terribly against BitCoin.
+If you're impatient and just want to know - RSI2 performed [terribly](https://github.com/danielneil/Shark-Doc/blob/main/tutorials/RSI2.md#7-analysing-the-results) against BitCoin.
 
 ### Quick Introduction to RSI2
 ---
