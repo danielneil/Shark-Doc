@@ -174,7 +174,7 @@ In summary, with 2705 bars of historical tick data, you can see:
 * 108 trades, with the win/loss rate was 67%/33%
 * Drawdown was 53% (longest duration was 1472 days)
   
-Probably just should have emailed myself back in 2010 to tell myself to just buy and hold BitCoin. 
+Probably just should have emailed myself back in 2010 to tell me to buy and hold BitCoin. 
   
 ### Why did RSI2 perform terribly?
 ---
