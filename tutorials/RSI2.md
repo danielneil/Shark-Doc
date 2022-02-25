@@ -176,7 +176,7 @@ In summary, with 2705 bars of historical tick data, you can see:
   
 Probably just should have emailed myself back in 2010 to tell me to buy and hold BitCoin. 
   
-### Why did RSI2 perform terribly?
+## Why did RSI2 perform terribly?
 ---
   
 Well, could be a few reasons:
@@ -186,5 +186,5 @@ Well, could be a few reasons:
 * My code could be crap? Let me know if you find a bug.
 
 ## Need Help? 
-
+---
 Come hang out on [Reddit](https://www.reddit.com/r/shark)!
