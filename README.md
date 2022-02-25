@@ -2,9 +2,9 @@
   <img src="https://github.com/danielneil/Shark/blob/main/shark/files/shark_ui_patches/logofullsize.png?raw=true">
 </p>
 
-# Shark Doc - An Algorithmic Trading Platform
+# Shark Doc 
 
-Shark is an open source algorithmic trading platform under active development.
+Documentaiton for Shark, an algorithmic trading platform
 
 ## Quick Start Instructions 
 
