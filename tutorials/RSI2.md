@@ -1,6 +1,6 @@
 ## Backtesting the famous RSI(2) strategy using Shark against BitCoin
 
-This article details backtesting Larry Connor's RSI2 strategy with Shark against the entirety of bitcoin's historical data snapped at market close with the yahoo_finance plugin.
+This article details backtesting the RSI2 strategy with Shark against bitcoin's entire historical dataset snapped at market close with the yahoo_finance plugin.
 
 ### Introduction
 
