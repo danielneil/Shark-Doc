@@ -17,7 +17,7 @@ RSI(2) is a famous trading strategy developed by Larry Connors.
 
 The [sample code](https://github.com/danielneil/Shark-Config-RSI2-Demo/blob/master/backtests/files/backtests/rsi2.py) below is loosely modeled on the Stock Charts article above, but to summarise, the strategy behaves as follows:
 
-#### 1. Identify the Major Trend using a long-term average
+##### 1. Identify the Major Trend using a long-term average
 
 Connors recommends the 200-day [moving average](https://www.investopedia.com/terms/m/movingaverage.asp). 
 
@@ -27,7 +27,7 @@ Therefore:
 * Identify long opportunities when price is > 200-day SMA
 * Identify short opportunities when price is < 200-day SMA
 
-#### 2. Choose an RSI level to identify buying or selling opportunities within the bigger trend
+##### 2. Choose an RSI level to identify buying or selling opportunities within the bigger trend
 
 Connors recommends [RSI](https://www.investopedia.com/terms/r/rsi.asp) levels between 0 and 10 for buying and between 90 and 100 for selling.
 
@@ -37,7 +37,7 @@ Therefore:
 * Identify buying opportunities when RSI levels between 0 and 10.
 * Identify selling opportunities when RSI levels between 90 and 100.
 
-#### 3. Set the exit point
+##### 3. Set the exit point
 
 > Connors advocates exiting long positions on a move above the 5-day SMA and short positions on a move below the 5-day SMA.
 
@@ -51,7 +51,7 @@ Therefore:
 
 This section details the Shark configuration required to implement the backtest as above.
 
-#### 1. Clone the Shark GitHub repository 
+##### 1. Clone the Shark GitHub repository 
 
 ```
 git clone https://github.com/danielneil/Shark.git
@@ -59,12 +59,12 @@ git clone https://github.com/danielneil/Shark.git
 
 See Quick Setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-setup](instructions).
 
-#### 2. Fork the Shark-Config github repository, to your own GitHub account.
+##### 2. Fork the Shark-Config github repository, to your own GitHub account.
 
 * [How?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
 * If you just want to see an example, here is one I prepared [earlier](https://github.com/danielneil/Shark-Config-RSI2-Demo).
 
-#### 3. From your forked Shark-Config Repo
+##### 3. From your forked Shark-Config Repo
 
 Wipe the demo config file Shark-Config/config/files/trading-config.yml and replace with the following
 ```
@@ -96,7 +96,7 @@ Wipe the demo config file Shark-Config/config/files/trading-config.yml and repla
 
 It demostrates the use of two Shark plugins, namely yahoo_finance_data and backtest.
 
-#### 4. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
+##### 4. Update the site.yml to reflect your forked Shark-Config GitHub repo URL.
 
 With a text editor, open site.yml in the Shark git repo, and do the following:
 
@@ -117,7 +117,7 @@ Also, as I have forked it for you, you can spin up my version with the following
    shark_config_repo: "https://github.com/danielneil/Shark-Config-RSI2-Demo.git"
 ```
 
-#### 5. Build Shark as per the Quick Setup instructions, specifically.
+##### 5. Build Shark as per the Quick Setup instructions, specifically.
 ```
 yum install epel-release -y
 yum install ansible -y
@@ -128,7 +128,7 @@ cd Shark && ./build.sh
 
 Open a web browser and navigate to http://SHARK_SERVER_IP/shark - (with shark/shark as username/password )
 
-#### 6. Let Shark do its thing
+##### 6. Let Shark do its thing
   
 (It might take a few minutes for Shark to cache the historical data file from yahoo finance and then perform the backtest).
   
@@ -148,7 +148,7 @@ You can see there are two plugins that correlate to the configuration you entere
   
 If you looked hard, you probably noticed the [Sharpe Ratio](https://www.investopedia.com/terms/s/sharperatio.asp) was 0.0 (which is terrible!), ideal Sharpe ratios are always postive numbers! 
 
-#### 7. Analysing the results
+##### 7. Analysing the results
  
 As per the result from the backtest plugin that ran our RSI2 code, the Sharpe ratio was less than ideal.
   
