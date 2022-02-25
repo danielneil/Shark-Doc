@@ -16,7 +16,7 @@ The sample code below is loosely modeled on the Stock Charts article above, but 
 
 #### 1. Identify the Major Trend using a long-term average
 
-Connors recommends the 200-day moving average. 
+Connors recommends the 200-day [moving average](https://www.investopedia.com/terms/m/movingaverage.asp). 
 
 > The long-term trend is up when a security is above its 200-day SMA and down when a security is below its 200-day SMA. Traders should look for BUYING opportunities when above the 200-day SMA and SHORT-selling opportunities when below the 200-day SMA.
 
