@@ -43,3 +43,6 @@ Therefore:
 * Exit long positions when price moves above the 5-day SMA.
 * Exit short positions when price moves below the 5-day SMA. 
 
+### Shark Setup
+
+
