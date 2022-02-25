@@ -47,9 +47,28 @@ Therefore:
 
 This section details the Shark configuration required to implement the backtest as above.
 
-#### 1. Clone the Shark GitHub repository (see quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-setup](instructions))
+#### 1. Clone the Shark GitHub repository 
+
+See quick setup [https://github.com/danielneil/Shark/blob/main/README.md#quick-setup](instructions).
+
 #### 2. Fork the Shark-Config github repository, to your own GitHub account.
-#### 3. Update the build.sh script to reflect your forked Shark-Config GitHub repo.
+
+[How to?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
+
+#### 3. Update the build.sh script to reflect your forked Shark-Config GitHub repo URL.
+
+With a text editor, open site.yml in the Shark git repo, and do the following:
+
+```
+   # Change the following
+   shark_config_repo: "https://github.com/danielneil/Shark-Config.git"
+   
+   # To something like this (where your_username, is your github username) 
+   shark_config_repo: "https://github.com/<your_username>/Shark-Config.git"
+```
+
+
+
 
 
 
