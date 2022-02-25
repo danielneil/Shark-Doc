@@ -6,6 +6,8 @@
 
 This article discusses backtesting the [RSI2 strategy](https://school.stockcharts.com/doku.php?id=trading_strategies:rsi2) with Shark against Bitcoin.
 
+If your impatient and just want to know - RSI2 performed terribly against BitCoin.
+
 ### Quick Introduction to RSI2
 ---
 
@@ -120,13 +122,13 @@ Open a web browser and navigate to http://<your-shark-server-ip>/shark - (with s
 
 #### 6. Let Shark do its thing
   
-(It might take a few minutes for Shark to cache the historical data file from yahoo finance).
+(It might take a few minutes for Shark to cache the historical data file from yahoo finance and then perform the backtest).
   
 With your new RSI2 Configuration, Shark has done three things.
  
 * Downloaded the historical data from yahoo finance
-* Ran your RSI2 backtest code against the historical data
-* Produced a report detaiing the above.
+* Ran your RSI2 backtest code against the downloaded historical data
+* Produced a report detailng its findings on the above
   
 If you click "Coins", you should have an image that looks like this:
   
@@ -145,7 +147,9 @@ As per the result from the backtest plugin that ran our RSI2 code, the Sharpe ra
 If want to drill into the specifics of the report, from the side menu, navigate to:
  
 1. Under Portfolio > Backtesting, click Reports
-2. Select the coin (BTC-USD), and the results should be as follows:
+2. Select the coin (BTC-USD), and the results should be as follows.
+  
+For the impatient, here it what I found.
 
 <p align="center">
   <img src="https://github.com/danielneil/Shark-Doc/blob/main/tutorials/shark_tutorial_images/shark-rsi2-backtest-report.png?raw=true">
@@ -153,8 +157,8 @@ If want to drill into the specifics of the report, from the side menu, navigate 
   
 #### 8. Why are the results terrible?
   
-Well, could a few reasons:
+Well, could be a few reasons:
   
-* RSI2 is indeed a terrible strategy for trading BitCoin
-* A limitation of Yahoo Finance data is that only the close price is listed.
+* Perhaps RSI2 is indeed a terrible strategy for trading BitCoin.
+* A limitation of Yahoo Finance data is that only the close price is listed, perhaps intraday tick data would perform better? 
 * My code could be crap? Let me know if you find a bug.
