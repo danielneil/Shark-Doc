@@ -31,7 +31,7 @@ Therefore:
 * Identify long opportunities when price is > 200-day SMA
 * Identify short opportunities when price is < 200-day SMA
 
-### 2. Chooses an RSI level to identify buying or selling opportunities within the bigger trend
+### 2. Chooses an RSI(2) level to identify buying or selling opportunities within the bigger trend
 
 Connors recommends [RSI](https://www.investopedia.com/terms/r/rsi.asp) levels between 0 and 10 for buying and between 90 and 100 for selling.
 
