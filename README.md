@@ -48,3 +48,15 @@ git clone https://github.com/danielneil/Shark.git && cd Shark && ./build.sh
 ```
 6. Navigate to http://shark-server/shark (web credentials are shark/shark) - it will take a few minutes to populate with data.
 </details>
+
+## Sample Configuration
+```
+TPD
+```
+
+## Sample Backtests
+```
+https://github.com/danielneil/Shark-Config/blob/master/backtests/files/backtests/moving_averages.py
+https://github.com/danielneil/Shark-Config/blob/master/backtests/files/backtests/BBands.py
+https://github.com/danielneil/Shark-Config/blob/master/backtests/files/backtests/rsi2.py
+```
