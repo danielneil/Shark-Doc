@@ -188,4 +188,4 @@ Well, could be a few reasons:
 Let me know if you find a bug.
 
 ## Need Help? 
-Come hang out on [Reddit](https://www.reddit.com/r/shark)!
+Please reach out to me on [Linked In!](www.linkedin.com/in/danielneilcanb) 
